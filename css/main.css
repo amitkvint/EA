@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding:0;
+}
+html  {
+	font-family:"Century Gothic", Helvetica, sans-serif;
+}
+/*---contenido de la web---*/
+#page-wrap {
+	width: 870px;
+	margin:auto;
+	box-shadow:  2px 2px 10px #333333;
+}
+
+/*---header---*/
+/* -- Cuadro para FLASH con las dimensiones puestas y con "Float" a la izquierda */
+#page-wrap header #logo {
+	height: 120px;
+	width: 435px;
+	float: left;
+}
+
+/* -- Texto principal con color y tamaño -- */
+#page-wrap header h1 {
+	color: #09C;
+	font-family: helvetica, "Times New Roman", Times, serif;
+}
+
+/* -- Texto secundario, conmenor tamaño que el principal y con otro color */
+#page-wrap header p {
+	font-family: helvetica, Times, serif;
+	color: #333;
+	font-size: 18px;
+}
+
+/*---diapositivas---*/
+#slider {
+	width: 870px;
+	height: 230px;
+	clear: both;
+}
+
+/*-- diseño sobre los section--*/
+
+section h3  {
+	background-color: #c4e3ff;
+	
+	 }
+section h2  {
+	color: #09F;
+	margin-left: 40px;
+}
+section a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #061f28;
+	padding-left: 15px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+	display: block;
+}
+section a:hover  {
+	color: #c4e3ff;
+	background-color: #061f28;
+	text-align: left;
+
+}
+section ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+a.locations  {
+	height: 30px;
+	width: 300px;
+}
+
+#fondolocations {
+	background-color: #c4e3ff;
+	margin-left: 43px;
+}
+#fondoactivities {
+	background-color: #c4e3ff;
+	margin-left: 43px;
+}
+#cajas {
+	height: 335px;
+	width: 418px;
+	margin-right: 15px;
+	margin-top: 26px;
+	float: left;
+	
+}
+
+/* Buscador */
+
+#page-wrap #search {
+	word-spacing: 5px;
+	float: left;
+	width: 418px;
+	margin-right: 15px;
+}
+/* Tamaño y color de h1 */
+#page-wrap #search h1 {
+	color: #FFF;
+	font-size: 36px;
+}
+#page-wrap #search #contenidosearch {
+	padding: 15px;
+}
+
+
+
+/* Tamaño y color de h2 */
+#page-wrap #search h2 {
+	font-size: 18px;
+	color: #FFF;
+	font-family: helvetica;
+}
+/* tamaño del cuadro desplegable 
+#page-wrap #search #form1 td #select {
+	height: 33px;
+	width: 332px;
+}
+*/
+
+/* Intento de estilo del boton de enviar */
+#page-wrap #search tr td #button2 {
+	border: 2px solid #CCC;
+	padding: 3, auto;
+}
+#page-wrap aside nav {
+	letter-spacing: 1px;
+	text-align: right;
+	word-spacing: 20px;
+	float: left;
+	height: 65px;
+	width: 418px;
+}
+
+/*---barra de navegación---*/
+
+#page-wrap aside nav ul {
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+}
+#page-wrap aside nav ul li{
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+}
+#page-wrap aside nav ul a {
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+	color: #043164;
+}
+
+/*---section search---*/
+section#search {
+	height: 256px;
+	width: 418px;
+	background-color: #00aeef;
+	float: left;
+}
+/* div FIESTAS */
+#fiestas {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-top-color: #44c4f3;
+	border-right-color: #44c4f3;
+	border-bottom-color: #44c4f3;
+	border-left-color: #44c4f3;
+	width: 418px;
+	float: left;
+	clear:both;
+}
+#fiestas h1 {
+	font-family: "Helvetica LT Std";
+	color: #c4e3ff;
+	font-size: 16px;
+	padding-left: 17px;
+}
+
+#fiestas h2 {
+	font-family: "Helvetica LT Std";
+	font-size: 18px;
+	padding-left: 17px;	
+}
+
+#fiestas h2 a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* div "more than just a holiday" */
+#page-wrap #quote {
+	font-family: "Helvetica LT Std";
+	color: #42c2f3;
+	font-size: 36px;
+	float: right;
+	padding-left: 17px;
+	padding-right: 17px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-top-color: #44c4f3;
+	border-right-color: #44c4f3;
+	border-bottom-color: #44c4f3;
+	border-left-color: #44c4f3;
+	width: 418px;
+	padding-top: 100px;
+}
+#page-wrap footer {
+	padding-bottom: 10px;
+	padding-left: 17px;
+
+}
+
+/* footer */
+#page-wrap footer #copyright {
+	clear:both;
+}
