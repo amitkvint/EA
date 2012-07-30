@@ -117,17 +117,26 @@ section ul {
 	list-style: none;
 	text-decoration: none;
 }
+#localizacion {
+	margin-top: 20px;
+	display:table;
+}
+
 
 /*---sectionLoctions---*/
 
 a.locations  {
-	height: 30px;
-	width: 300px;
+	height: 40px;
+	width: 343px;
+	vertical-align:middle;   
+	display: table-cell;
+	 
 }
 
 #fondolocations {
 	background-color: #c4e3ff;
 	margin-left: 43px;
+	margin-top: 10px;
 }
 #locations h2 {
 	color: #00aeed;
@@ -135,12 +144,18 @@ a.locations  {
 	margin-left: 40px;
 	margin-top: 5px;
 }
+#actividades {
+	margin-top: 30px;
+}
+
 
 /*---sectionActivities---*/
 
 #fondoactivities {
 	background-color: #c4e3ff;
 	margin-left: 43px;
+	margin-top: 10px;
+
 }
 #activities h2 {
 	color: #00aeed;
@@ -210,43 +225,71 @@ section#search {
 	color: #FFF;
 	font-family: helvetica;
 	margin-right: 20px;
+	margin-top: 25px;
 }
 
 #page-wrap #search #contenidosearch {
-	padding: 30px;
+	padding: 35px;
 	margin-left: 15px;
 	word-spacing: 5px;
-	line-height: 33px;
+	line-height: 40px;
 	color: #FFF;
 	text-align: left;
+}
+
+.styled-select select {
+	border: 1px solid #ccc;
+	background: URL(../imagenes/arrow.png) no-repeat 298px 3px #fff !important;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+
+input[type=submit] {
+	float: right;
+    font-size: 1.2em;
+    color: #FFF;
+    padding: 5px 10px 5px 10px;
+	border: solid 3px #CCC;
+    background: #061f28;
+    text-shadow: 0px 1px 0px #000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    cursor: pointer;
+ 	margin-top: 70px;
+ 	margin-left: 160px;
+
+    /*
+    box-shadow: 0 1px 3px #111;
+    -moz-box-shadow: 3px 3px 1px #999;
+    -webkit-box-shadow: 3px 3px 1px #999;
+ 	
+ 	*/
 }
 
  /*tamaño del cuadro desplegable del search*/
 #contenidosearch #form1 #select {
 	width: 100%;
-}
-
-/*---boton de "buscar" en el search---*/
-#button2 {
-	float: right;
-	background-color: #06F;
-	background-image: url(../imagenes/botonsearch.jpg);
-	background-size: 100% 100%;
-	height: 25px;
-	width: 100px;
+	height: 35px;
+	margin-top: 1px;
+	font-size: 22px;
 }
 /*---FIN DEL SEARCH---*/
 
 /*--- div FIESTAS ---*/
 #fiestas {
 	border-top-width: 2px;
-	
 	border-top-style: solid;
 	border-top-color: #44c4f3;
-	
-	width: 435px;
+	clear:both;
+	width: 900px;
 	float: left;
 	color: #041b23;
+	line-height: 40px;
+	padding-top: 40px;
+	
 }
 
 
@@ -272,23 +315,27 @@ section#search {
 	text-decoration: none;
 	color: #000;
 	font-weight: lighter;
+    padding: 20px;
 }
 /*---FIN DE FIESTAS---*/
 
 /* ---div fiestas2 "more than just a holiday"--- */
 #page-wrap #fiestas2 {
-	font-family:"Century Gothic", Helvetica, sans-serif;
+	font-family: "Century Gothic", Helvetica, sans-serif;
 	color: #42c2f3;
-	font-size: 20px;
-	width: 435px;
-	padding-top: 100px;
-	border-top-width: 2px;
-	border-top-style: solid;
-	border-top-color: #44c4f3;
+	font-size: 25px;
+	width: 360px;
+	float: right;
 }
-#page-wrap #fiestas2 p{
-	float:right;
+#page-wrap #fiestas #fiestas2 h1 {
+	font-size: 25px;
+	float: right;
+	color: #41c3f3;
+	font-weight: lighter;
+	font-size: 30px;
+	margin-right: 40px;
 }
+
 /*---FIN DE FIESTAS2---*/
 
 /* ---footer ---*/
