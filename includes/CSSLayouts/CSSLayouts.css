@@ -1,0 +1,98 @@
+/**
+ * General Flexi CSS Layouts style definitions.
+ * The rules defined in this file are used in all the layouts and its contents SHOULD NOT BE CHANGED. 
+ */
+
+/**
+ * CSS class applied to all outer layers of the CSS Boxes. Boxes float left by default, except when specified otherwise in particular layout styles.
+ */
+.cssLO {
+	float: left;
+}
+
+/**
+ * CSS class applied to all inner layers of the CSS Boxes. No general rules are needed but the selector is listed here for reference.
+ */
+.cssLI{
+}
+
+/**
+ * Prevents the non-intuitive collapsing margins default behaviour of the W3 Box Model.
+ * This rule is recognized by all modern browser (Firefox, Opera, IE8, Safari, Chrome and other) and IE7, but not by IE6 or the Dreamweaver design view.
+ * IE6 does not collapse margins and for DW the problem was solved in another way.
+ */
+.cssLO > .cssLI:first-child{
+	overflow: hidden;
+}
+
+/**
+ * Style definitions for the clearing div for the row type CSS Boxes.
+ * This div not displayed for IE6 and lower. The second CSS rule makes it visible only for newer browsers.
+ */
+.cssLClearR{
+	clear: both;
+	height: 0;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+.cssLI > .cssLClearR{
+	display: block;
+}
+
+/**
+ * Style definitions for the clearing div for the column type CSS Boxes.
+ * This div not displayed for IE6 and lower. The second CSS rule makes it visible only for newer browsers.
+ */
+.cssLClearC{
+	clear: both;
+	height: 0;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+.cssLI > .cssLClearC{
+	display: block;
+}
+
+/**
+ * Style definitions for the layout clearing div.
+ * This div is not displayed for IE7 and lower. The second CSS rule makes it visible only for newer browsers.
+ */
+.cssLClearL{
+	clear: both;
+	height: 0;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+html>/**/body .cssLClearL{ 
+	display: block;
+}
+
+/**
+ * CSS rule that fixes a Dreamweaver CS5 design view positioning bug.
+ * Withouth this rule some relatively positioned divs will be displayed outside the normal page viewport.
+ */
+div.cssLFixDWPositioning{
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+/**
+ * Bellow are CSS style definitions for the Flexi CSS Layouts Debug Mode.
+ */
+#layoutsDebug_infoIcon{
+	background-image: url("bulk_icons.png");
+	background-position: 0 0;
+	cursor: help;
+	height: 16px;
+	left: 2px;
+	position: absolute;
+	top: 2px;
+	width: 16px;
+}

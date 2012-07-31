@@ -1,0 +1,55 @@
+/*
+This rule defines the positining and dimensions of the main layout div. It SHOULD NOT BE MODIFIED by hand.
+*/
+div.PageLayout1{
+	margin-right:auto;
+	margin-left:auto;
+	position:static;
+	width:960px;
+}
+/*
+Body CSS rules start
+
+This section holds the CSS rules for the HTML body and may also contain general typography definitions. Although it is recomended that you do all the editing with the Flexi CSS Layouts Editor, you may change any property that is not a dimension. (Don't change things like 230px, 20% or 14em)
+*/
+.PageLayout1_body_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+}
+
+/*Body CSS rules end*/
+
+/*
+Content Boxes design CSS rules start
+
+This section holds the CSS rules for the content Boxes. The content Boxes are divs that will hold the page content (text, images etc., but not other Flexi CSS Layouts Boxes). You may also find typography rules here. If you want to check or change any CSS property you will probably find it here. Although it is recomended that you do all the editing with the Flexi CSS Layouts Editor, you may change any property that is not a dimension. (Don't change things like 230px, 20% or 14em)
+*/
+div.cssLO .PageLayout1_wrapper_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:900px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:900px;
+}
+
+/*Content Boxes design CSS rules end*/
+
+/*
+Container Boxes design CSS rules start
+
+In this section are found design rules for the Boxes that are used as containers for other Boxes. Styles defined here are applied on all the container's respective children. Although it is recomended that you do all the editing with the Flexi CSS Layouts Editor, you may change any property that is not a dimension. (Don't change things like 230px, 20% or 14em)
+*/
+/*Container Boxes design CSS rules end*/
+
+/*
+Layout CSS rules start
+
+This section contains layout rules that handle the positioning and dimensions of each layout element. Please DO NOT MODIFY this by hand!
+*/
+.PageLayout1_wrapper_layout{
+	width:960px;
+}
+
+/*Layout CSS rules end*/

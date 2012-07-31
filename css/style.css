@@ -358,3 +358,12 @@ input[type=submit] {
 	margin-top: 70px;
 	margin-bottom: 30px;
 }
+#creditos p a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #85CBE9;
+}
+#creditos p a:hover  {
+	font-weight: bold;
+	color: #85CBE9;
+}
