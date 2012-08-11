@@ -19,7 +19,7 @@ html  {
 
 /*---caja externa del contenido de la web---*/
 #page-wrap {
-	width: 900px;
+	width: 73.40%;
 	margin: 0 auto;
 	box-shadow: 3px 3px 15px #d3d3d3;
 	border-bottom-left-radius: 10px;
@@ -37,19 +37,17 @@ html  {
 }
 
 #logos {
-	height: 120px;
-	width: 435px;
+	width: 50%;
 }
 
 #logo2 {
-	height: 25px;
-	width: 435px;
+	width: 65%;
 	float: left;
 	margin-bottom: 10px;
 }
-#logo2 h3 {
+#logo2 h1 {
 	text-align: center;
-	margin-right: 60px;
+    margin-left: 4.2%;
 	font-size: 1.5em;
 	font-weight: lighter;
 }
@@ -57,37 +55,32 @@ html  {
 	margin-right: 7px;
 	margin-left: 7px;
 }
-#page-wrap header {
-	line-height: 25px;
-}
-
-
-
-
 
 /* -- Texto principal con color y tamaño -- */
-#page-wrap header h1 {
+#page-wrap header h3 {
 	color: #41c3f3;
 	font-family: helvetica, "Times New Roman", Times, serif;
 	font-weight: lighter;
 	font-size: 2.5em;
+	float:right;
+	margin-right: 4.2%;
 }
+
 /*---FIN DEL HEADER---*/
 
 
 /*---diapositivas---*/
 #slider {
-	width: 900px;
-	height: 315px;
+	width: 100%;
 	clear: both;
 }
 
 /*-- diseño sobre los section--*/
 /*---en conjunto: locations y activities---*/
 #cajas {
-	height: 410px;
-	width: 400px;
-	margin-right: 25px;
+
+	width: 45.94%;
+	margin-right: 3%;
 	margin-top: 26px;
 	float: left;
 	
@@ -117,14 +110,16 @@ section ul {
 	list-style: none;
 	text-decoration: none;
 }
-#localizacion {
-	margin-top: 20px;
-	display:table;
-}
+
 
 
 /*---sectionLoctions---*/
 
+#localizacion {
+	width: 100%;
+	margin-top: 20px;
+	display:table;
+}
 a.locations  {
 	height: 40px;
 	width: 343px;
@@ -135,31 +130,42 @@ a.locations  {
 
 #fondolocations {
 	background-color: #c4e3ff;
-	margin-left: 43px;
+	margin-left: 6.75%;
 	margin-top: 10px;
 }
 #locations h2 {
 	color: #00aeed;
 	margin-bottom: 7px;
-	margin-left: 40px;
+	margin-left: 6.75%;
 	margin-top: 5px;
 }
-#actividades {
-	margin-top: 30px;
-}
+
 
 
 /*---sectionActivities---*/
+#actividades {
+	margin-top: 30px;
+	width: 100%;
+
+}
+
+a.actividades  {
+	height: 40px;
+	width: 343px;
+	vertical-align:middle;   
+	display: table-cell;
+	 
+}
 
 #fondoactivities {
 	background-color: #c4e3ff;
-	margin-left: 43px;
+	margin-left: 6.75%;
 	margin-top: 10px;
 
 }
 #activities h2 {
 	color: #00aeed;
-	margin-left: 40px;
+	margin-left: 6.75%;
 	margin-bottom: 7px;
 	margin-top: 5px;
 }
@@ -167,13 +173,13 @@ a.locations  {
 
 /*---barra de navegación---*/
 #page-wrap aside nav {
-	letter-spacing: 1px;
-	text-align: right;
-	word-spacing: 20px;
+	letter-spacing: 0.21%;
+    text-align: right;
+	word-spacing: 4.21%;
 	float: left;
-	height: 30px;
-	width: 418px;
+	width: 44%;
 	margin-top: 36px;
+	margin-right: 4.5%;
 }
 #page-wrap aside nav ul {
 	text-decoration: none;
@@ -196,20 +202,16 @@ a.locations  {
 /*---section search---*/
 section#search {
 	height: 410px;
-	width: 400px;
+	width: 47.90%;
 	background-color: #00aeef;
 	float: left;
 	border: 3px solid #c4e3ff;
-	margin-bottom: 50px;
+	margin-bottom: 50px;	   
+	word-spacing: 5px;
 }
 /* Buscador */
 
-#page-wrap #search {
-	word-spacing: 5px;
-	float: left;
-	width: 418px;
-	margin-right: 15px;
-}
+
 /* Tamaño y color de h1 del search */
 #page-wrap #search h1 {
 	color: #FFF;
@@ -222,9 +224,7 @@ section#search {
 /* Tamaño y color de h2 del search */
 #page-wrap #search h2 {
 	font-size: 18px;
-	color: #FFF;
 	font-family: helvetica;
-	margin-right: 20px;
 	margin-top: 25px;
 }
 
@@ -239,7 +239,7 @@ section#search {
 
 .styled-select select {
 	border: 1px solid #ccc;
-	background: URL(../imagenes/arrow.png) no-repeat 298px 3px #fff !important;
+	background: url(file://///eee04/practicas/FUSION/imagenes/arrow.png) no-repeat 306px 3px #fff  !important;
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
@@ -251,15 +251,15 @@ input[type=submit] {
     font-size: 1.2em;
     color: #FFF;
     padding: 5px 10px 5px 10px;
-	border: solid 3px #CCC;
+	border: solid 0.71% #CCC;
     background: #061f28;
     text-shadow: 0px 1px 0px #000;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px; 
     cursor: pointer;
- 	margin-top: 70px;
- 	margin-left: 160px;
+ 	margin-top: 16.74%;
+ 	margin-left: 38.27%;
 
     /*
     box-shadow: 0 1px 3px #111;
@@ -271,7 +271,7 @@ input[type=submit] {
 
  /*tamaño del cuadro desplegable del search*/
 #contenidosearch #form1 #select {
-	width: 100%;
+	width: 98%;
 	height: 35px;
 	margin-top: 1px;
 	font-size: 22px;
@@ -280,15 +280,16 @@ input[type=submit] {
 
 /*--- div FIESTAS ---*/
 #fiestas {
-	border-top-width: 2px;
+	border-top-width: 0.22%;
 	border-top-style: solid;
 	border-top-color: #44c4f3;
 	clear:both;
-	width: 900px;
+	width: 100%;
 	float: left;
 	color: #041b23;
-	line-height: 40px;
-	padding-top: 40px;
+	line-height:20px;
+	padding-top: 4.44%;
+	margin-bottom: 1.5%;
 	
 }
 
@@ -315,7 +316,8 @@ input[type=submit] {
 	text-decoration: none;
 	color: #000;
 	font-weight: lighter;
-    padding: 20px;
+    padding:  20px;
+	
 }
 /*---FIN DE FIESTAS---*/
 
@@ -367,3 +369,4 @@ input[type=submit] {
 	font-weight: bold;
 	color: #85CBE9;
 }
+
